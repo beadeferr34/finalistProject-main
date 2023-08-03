@@ -23,7 +23,8 @@ struct CategoriesPage: View {
                 VStack {
 
                  
-                    
+                    Spacer()
+                        .frame(height: 100)
                     
                     Text("Choose your first category!").bold()
                         .font(.system(size: 25, design: .rounded))
@@ -35,8 +36,8 @@ struct CategoriesPage: View {
                     
                     
                     //
-                    
-                        .frame(height: 200)
+                    Spacer()
+                        .frame(height: 100)
                     //
                     NavigationLink(destination: MovieGenresView()) {
                         Text("Movies")
