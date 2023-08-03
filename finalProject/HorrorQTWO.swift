@@ -13,11 +13,13 @@ struct HorrorQTWO: View {
             ZStack {
                 Color(red: 17/255, green: 75/255, blue: 95/255)
                     .ignoresSafeArea()
+                Image("swirls")
+                    .opacity(0.3)
                 
                 VStack {
                     
                     Spacer()
-                        .frame(height:200)
+                        .frame(height:92)
                     Text("Favourite horror era?")
                         .font(.system(size: 25, design: .rounded))
                         .foregroundColor(Color.black)

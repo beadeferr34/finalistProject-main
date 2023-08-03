@@ -16,11 +16,12 @@ struct CategoriesPage: View {
             ZStack {
                 Color(red: 17/255, green: 75/255, blue: 95/255)
                     .ignoresSafeArea()
+                Image("swirls")
+                    .opacity(0.3)
                 
                 
                 VStack {
-                    
-                    Spacer()
+
                  
                     
                     
