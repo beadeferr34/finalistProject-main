@@ -13,13 +13,14 @@ struct RecsView: View {
 
             ScrollView {
                 ZStack {
-                    Color(red: 238/255.0, green: 229/255.0, blue: 233/255.0)
+                    Color(red: 0/255.0, green: 0/255.0, blue: 0/255.0)
                         .ignoresSafeArea()
                     VStack {
                         HStack {
                             Text("Recommendations")
                                 .font(.title)
                                 .fontWeight(.semibold)
+                                .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                 .multilineTextAlignment(.leading)
                                 .padding(.top)
                             Spacer()
@@ -37,18 +38,25 @@ struct RecsView: View {
                                 VStack{
                                     NavigationLink(destination: UsFilmView()) {
                                         Text(" Us")
+                                            .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                             .font(.title3)
                                             .fontWeight(.semibold)
                                             .foregroundColor(Color.black)
                                             .multilineTextAlignment(.leading)
                                         Spacer()
+                                        Text("♡")
+                                                              .fontWeight(.semibold)
+                                                              .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
+                                                              .font(.title3)
                                         
                                     }
                                     .padding(.bottom, -1.0)
-                                    Text("Dir. Jordan Peele") .multilineTextAlignment(.leading).padding(.leading, -113.0)
+                                    Text("Dir. Jordan Peele")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -113.0)
                                     
                                     Spacer()
-                                    Text("2019") .multilineTextAlignment(.leading).padding(.leading, -121.0)
+                                    Text("2019")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -121.0)
                                     
                                     Spacer()
                                         .padding(.top, 0.0)
@@ -68,18 +76,25 @@ struct RecsView: View {
                                 VStack{
                                     NavigationLink(destination: UsFilmView()) {
                                         Text(" Get Out")
+                                            .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                             .font(.title3)
                                             .fontWeight(.semibold)
                                             .foregroundColor(Color.black)
                                             .multilineTextAlignment(.leading)
                                         Spacer()
+                                        Text("♡")
+                                                              .fontWeight(.semibold)
+                                                              .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
+                                                              .font(.title3)
                                         
                                     }
                                     .padding(.bottom, -1.0)
-                                    Text("Dir. Jordan Peele") .multilineTextAlignment(.leading).padding(.leading, -113.0)
+                                    Text("Dir. Jordan Peele")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -113.0)
                                     
                                     Spacer()
-                                    Text("2017") .multilineTextAlignment(.leading).padding(.leading, -121.0)
+                                    Text("2017")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -121.0)
                                     
                                     Spacer()
                                         .padding(.top, 0.0)
@@ -100,19 +115,26 @@ struct RecsView: View {
                                 VStack{
                                     NavigationLink(destination: UsFilmView()) {
                                         Text(" Parasite")
+                                            .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                             .font(.title3)
                                             .fontWeight(.semibold)
                                             .foregroundColor(Color.black)
                                             .multilineTextAlignment(.leading)
                                         Spacer()
+                                        Text("♡")
+                                                              .fontWeight(.semibold)
+                                                              .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
+                                                              .font(.title3)
                                         
                                         
                                     }
                                     .padding(.bottom, -1.0)
-                                    Text("Dir. Bong Joon-Ho") .multilineTextAlignment(.leading).padding(.leading, -105.0)
+                                    Text("Dir. Bong Joon-Ho")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -105.0)
                                     
                                     Spacer()
-                                    Text("2020") .multilineTextAlignment(.leading).padding(.leading, -121.0)
+                                    Text("2020")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -121.0)
                                     
                                     Spacer()
                                         .padding(.top, 0.0)
@@ -136,18 +158,25 @@ struct RecsView: View {
                                 VStack{
                                     NavigationLink(destination: UsFilmView()) {
                                         Text(" Black Swan")
+                                            .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                             .font(.title3)
                                             .fontWeight(.semibold)
                                             .foregroundColor(Color.black)
                                             .multilineTextAlignment(.leading)
                                         Spacer()
+                                        Text("♥︎")
+                                                              .fontWeight(.semibold)
+                                                              .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
+                                                              .font(.title3)
                                         
                                     }
                                     .padding(.bottom, -1.0)
-                                    Text("Dir. Darren Aronofsky") .multilineTextAlignment(.leading).padding(.leading, -82.0)
+                                    Text("Dir. Darren Aronofsky")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -82.0)
                                     
                                     Spacer()
-                                    Text("2011") .multilineTextAlignment(.leading).padding(.leading, -121.0)
+                                    Text("2011")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -121.0)
                                     
                                     Spacer()
                                         .padding(.top, 0.0)
@@ -168,18 +197,25 @@ struct RecsView: View {
                                 VStack{
                                     NavigationLink(destination: UsFilmView()) {
                                         Text(" Gone Girl")
+                                            .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
                                             .font(.title3)
                                             .fontWeight(.semibold)
                                             .foregroundColor(Color.black)
                                             .multilineTextAlignment(.leading)
                                         Spacer()
+                                        Text("♡")
+                                                              .fontWeight(.semibold)
+                                                              .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0))
+                                                              .font(.title3)
                                         
                                     }
                                     .padding(.bottom, -1.0)
-                                    Text("Dir. David Fincher") .multilineTextAlignment(.leading).padding(.leading, -109.0)
+                                    Text("Dir. David Fincher")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -109.0)
                                     
                                     Spacer()
-                                    Text("2014") .multilineTextAlignment(.leading).padding(.leading, -121.0)
+                                    Text("2014")
+                                        .foregroundColor(Color(red: 148/255.0, green: 188/255.0, blue: 199/255.0)).multilineTextAlignment(.leading).padding(.leading, -121.0)
                                     
                                     Spacer()
                                         .padding(.top, 0.0)
@@ -204,7 +240,6 @@ struct RecsView: View {
 
 struct RecsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RecsView()
     }
 }
-

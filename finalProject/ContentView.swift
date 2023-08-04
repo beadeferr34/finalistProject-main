@@ -66,11 +66,10 @@ struct ContentView: View {
                                 .foregroundColor(Color.black)
                             //                        .multilineTextAlignment(.center)
                                 .frame(width: 300.0, height: 50.0)
-                                .border(.white, width: 5)
-                                
-                                .background(Color(red: 201/255, green: 215/255, blue: 248/255))
+                                .border(Color(red: 0.892, green: 0.858, blue: 0.871), width: 5)
                                 .cornerRadius(20)
                                 .font(.system(size: 50, design: .rounded))
+                                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.856, green: 0.826, blue: 0.836)/*@END_MENU_TOKEN@*/)
                         }
                         
                         Spacer()
